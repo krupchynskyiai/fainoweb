@@ -357,3 +357,7 @@ th {
 .process-h2 {
   z-index: 10;
 }
+
+.process {
+  z-index: 1;
+}
