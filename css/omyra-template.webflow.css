@@ -631,7 +631,7 @@ figcaption {
 .section.is-header {
   padding-top: 160px;
   background-color: #f0f0f0;
-  background-image: url('images/header-portfolio.png');
+  background-image: url('../images/header-portfolio.png');
   background-position: 30% 50%;
   background-size: 2530px;
   background-repeat: no-repeat;
