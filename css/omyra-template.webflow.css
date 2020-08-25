@@ -140,7 +140,7 @@
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', "Montserrat", sans-serif;
   color: #333;
   font-size: 16px;
   line-height: 1.5;
@@ -7765,4 +7765,20 @@ figcaption {
   border: 2.5px solid #f09d1f;
   background-color: white;
   color: #f09d1f;
+}
+
+.email-footer {
+  font-size: 12px;
+}
+
+.phone-footer {
+  font-size: 12px;
+}
+
+footer {
+  font-size: 14px;
+}
+
+.footer-nav-link.on-dark.w-inline-block {
+  font-size: 12px;
 }
