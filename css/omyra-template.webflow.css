@@ -7722,6 +7722,29 @@ figcaption {
 }
 
 .section.is-header h1 {
-  color: black;
+  color: white;
 }
 
+@media (max-width: 1024px) {
+  .section.is-header {
+    background-image: url(../images/header-portfolio-pro.png);
+  }
+}
+
+@media (max-width: 991px) {
+  .section.is-header {
+    background-image: url(../images/header-portfolio-mobile.png);
+  }
+}
+
+@media (max-width: 767px) {
+  .section.is-header {
+    background-image: url(../images/header-portfolio-mobile.png);
+  }
+}
+
+@media (max-width: 479px) {
+  .section.is-header {
+    background-image: url(../images/header-portfolio-mobile.png);
+  }
+}
