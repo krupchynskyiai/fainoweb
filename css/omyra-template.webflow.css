@@ -7710,3 +7710,7 @@ figcaption {
 .brief-btn {
   width: 100%;
 }
+
+.c-shadowing-text .is-smaller .our-works {
+  font-size: 155px;
+}
