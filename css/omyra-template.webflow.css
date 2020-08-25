@@ -7717,10 +7717,6 @@ figcaption {
   font-size: 154px;
 }
 
-.brief-h1 {
-  margin-bottom: 100px;
-}
-
 .section.is-header h1 {
   color: white;
 }
@@ -7747,4 +7743,26 @@ figcaption {
   .section.is-header {
     background-image: url(../images/header-portfolio-mobile.png);
   }
+}
+
+.button-primary.is-form-button.w-button.brief-btn {
+  border: 2.5px solid #f09d1f;
+  transition: 0.2s;
+}
+
+.button-primary.is-form-button.w-button.brief-btn:hover {
+  border: 2.5px solid #f09d1f;
+  background-color: white;
+  color: #f09d1f;
+}
+
+.button-primary.is-form-button.w-button {
+  border: 2.5px solid #f09d1f;
+  transition: 0.2s;
+}
+
+.button-primary.is-form-button.w-button:hover {
+  border: 2.5px solid #f09d1f;
+  background-color: white;
+  color: #f09d1f;
 }
