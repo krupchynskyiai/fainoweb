@@ -635,6 +635,7 @@ figcaption {
   background-position: 30% 50%;
   background-size: 2530px;
   background-repeat: no-repeat;
+  color: white;
 }
 
 .section.is-header.bg-accent.position-relative.bg-img {
@@ -4713,7 +4714,8 @@ figcaption {
 }
 
 .c-shadowing-text.is-smaller {
-  font-size: 160px;
+  margin-top: 10px;
+  font-size: 155px;
 }
 
 .c-carousel1__content-2 {
@@ -7712,5 +7714,11 @@ figcaption {
 }
 
 .c-shadowing-text .is-smaller .our-works {
-  font-size: 155px;
+  font-size: 154px;
 }
+
+.brief-h1 {
+  margin-bottom: 100px;
+}
+
+
