@@ -7721,4 +7721,7 @@ figcaption {
   margin-bottom: 100px;
 }
 
+.section.is-header h1 {
+  color: black;
+}
 
