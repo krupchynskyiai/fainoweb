@@ -7700,6 +7700,11 @@ figcaption {
 
 .brief {
   padding-top: 0;
+  
+  background: url(../images/bg-decor1.svg);
+  background-position-y: bottom;
+  background-position-x: left;
+  background-size: cover;
 }
 
 .brief-btn {
