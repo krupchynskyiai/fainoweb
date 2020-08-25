@@ -7693,3 +7693,15 @@ figcaption {
   font-weight: 300;
   font-style: normal;
 }
+
+.brief-form h2 {
+  margin: 50px auto;
+}
+
+.brief {
+  padding-top: 0;
+}
+
+.brief-btn {
+  width: 100%;
+}
