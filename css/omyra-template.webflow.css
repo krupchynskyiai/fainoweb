@@ -7818,7 +7818,7 @@ footer {
   z-index:100000;
 }    
 .exitblock .fon {
-  background: #F6FCFF;
+  background: #fff;
   opacity:.8;
   position:fixed;
   width:100%;
@@ -7827,14 +7827,15 @@ footer {
 .exitblock .modaltext {
   box-sizing: border-box;  
   padding:20px 40px;
-  border: 2px solid #AEAEAE;
-  background: #F6FCFF;
+  border: 5px solid #2c5bbe;
+  background: #fff;
   position:fixed;
   top:80px;
   left:50%;
   margin-left:-30%;
   width:60%;
-  box-shadow: 0 4px 10px 2px rgba(0,0,0,0.5);
+  box-shadow: 0 1px 2.5px 1px rgba(0,0,0,0.1);
+  border-radius: 35px;
 }        
 .closeblock {
   cursor:pointer;
@@ -7845,7 +7846,7 @@ footer {
   text-align:center;
   top:20px;
   right:30px;
-  color: #337AB7;    
+  color: #2c5bbe;    
 }
 .closeblock:hover {
   color: #000;    
