@@ -377,7 +377,10 @@
     <div class="fon"></div>    
     <div class="modaltext">    
         <h3>Оставьте Ваш номер телефона и получите скидку 10%!</h3>
-        <form>
+        <form id="form-popup">
+            <input type="hidden" name="project_name" value="FainoWeb">
+            <input type="hidden" name="admin_email" value="support@fainoweb.com">
+            <input type="hidden" name="form_subject" value="Pop-Up Главная">      
             <input type="tel" name="telephone" class="form-input-text w-input">
             <input type="submit" class="button-primary is-form-button w-button brief-btn">
         </form>
