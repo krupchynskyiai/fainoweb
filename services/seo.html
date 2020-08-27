@@ -4,7 +4,7 @@
 <html data-wf-page="5dd749adb9c85cc9fa7b9173" data-wf-site="5dd749adb9c85ce7bf7b9191">
 <head>
   <meta charset="utf-8">
-  <title>Single Post</title>
+  <title>FainoWeb</title>
   <meta content="Single Post" property="og:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
@@ -26,21 +26,21 @@
 		<div class="col lg-8 no-margin-bottom md-basis-auto md-order-last">
 		  <nav class="navigation-menu flexh-justify-center position-relative"><a href="../index.html" class="c-nav__link">Главная</a><a href="../about-us.html" class="c-nav__link">О нас</a><a href="../portfolio.html" class="c-nav__link">Портфолио</a><a href="../blog.html" class="c-nav__link  w--current">Блог</a><a href="../contact-us.html" class="c-nav__link">Контакты</a>
 			<div data-hover="1" data-delay="0" data-w-id="5fdb8a12-9519-42e0-9c63-f85cfbd14533" class="c-nav_dropdown w-dropdown">
-                <div class="nav-dropdown-toggle w-dropdown-toggle">
-                    <a href="#" class="nav-link-block w-inline-block">
-                      <div>Услуги</div>
-                      <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-                    </a>
-                  </div>
-                  <nav class="c-dropdown w-dropdown-list"><a href="web-development.html" class="c-dropdown__link w-dropdown-link">Разработка веб-сайтов</a><a href="smm.html" class="c-dropdown__link w-dropdown-link">SMM</a><a href="web-design.html" class="c-dropdown__link w-dropdown-link">Дизайн</a><a href="seo.html" class="c-dropdown__link w-dropdown-link">SEO</a><a href="digital-marketing.html" class="c-dropdown__link w-dropdown-link">Digital Marketing</a><a href="support.html" class="c-dropdown__link w-dropdown-link">Обслуживание и администрирование</a></nav> 
 			  <!-- <div class="nav-dropdown-toggle w-dropdown-toggle">
 				<a href="#" class="nav-link-block w-inline-block">
 				  <div>Pages</div>
 				  <div class="dropdown-icon w-icon-dropdown-toggle"></div>
 				</a>
-			  </div> -->
-			  <!-- <nav class="c-dropdown w-dropdown-list"><a href="portfolio-detail.html" class="c-dropdown__link w-dropdown-link">Single Portfolio</a><a href="single-post.html" class="c-dropdown__link w-dropdown-link">Single Post</a></nav>
-			</div> -->
+			  </div>
+			    <nav class="c-dropdown w-dropdown-list"><a href="portfolio-detail.html" class="c-dropdown__link w-dropdown-link">Single Portfolio</a><a href="single-post.html" class="c-dropdown__link w-dropdown-link">Single Post</a></nav>
+            </div> -->
+            <div class="nav-dropdown-toggle w-dropdown-toggle">
+				<a href="#" class="nav-link-block w-inline-block">
+				  <div>Услуги</div>
+				  <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+				</a>
+			  </div>
+			  <nav class="c-dropdown w-dropdown-list"><a href="web-development.html" class="c-dropdown__link w-dropdown-link">Разработка веб-сайтов</a><a href="smm.html" class="c-dropdown__link w-dropdown-link">SMM</a><a href="web-design.html" class="c-dropdown__link w-dropdown-link">Дизайн</a><a href="seo.html" class="c-dropdown__link w-dropdown-link">SEO</a><a href="digital-marketing.html" class="c-dropdown__link w-dropdown-link">Digital Marketing</a><a href="support.html" class="c-dropdown__link w-dropdown-link">Обслуживание и администрирование</a></nav> 
 		  </nav>
 		</div>
 		<div class="col lg-2 no-margin-bottom-lg lg-text-align-right md-basis-auto md-margin-bottom-small">
@@ -71,15 +71,32 @@
   <div class="section margin-top-large">
     <div class="container">
       <div class="col lg-12">
-        <h1 class="heading-beta">SEO</h1>
+        <h1 class="heading-beta">SEO продвижение</h1>
       </div>
     </div>
+    
+    <div class="exitblock1">
+        <div class="fon"></div>    
+        <div class="modaltext1">    
+            <h3>Ваши контактные данные:</h3>
+            <form>
+                <label class="form-label">Имя</label>
+                <input type="text" name="name" class="form-input-text w-input">
+                <label class="form-label">Номер телефона</label>
+                <input type="tel" name="telephone" class="form-input-text w-input">
+                <input type="submit" value="Заказать" class="button-primary is-form-button w-button brief-btn">
+            </form>
+        </div>
+        <div class="closeblock">+</div>
+    </div>
+
     <div class="container flex-horizontal margin-bottom-double">
       <div class="col lg-6 md-12">
         <div>
           <div class="text-medium weight-is-black margin-bottom">Donec sed odio dui etiam porta sem malesuada magna consectetur adipiscing elit Nulla vitae elit libero</div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
         </div>
+        <button type="submit" value="Заказать" id="btn-order" class="button-primary is-form-button w-button brief-btn btn-order">ЗАКАЗАТЬ</button>
       </div>
       <div class="col lg-2 no-margin-bottom"></div>
       <div class="col lg-4 md-12 md-order-last"><a href="#" class="c-single-post__header-link">hire our specialists</a><a href="#" class="c-single-post__header-link">Join the team</a><a href="#" class="c-single-post__header-link no-border">Share</a></div>
@@ -316,6 +333,7 @@
   </footer>
   <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
   <script src="../js/webflow.js" type="text/javascript"></script>
+  <script src="../js/order-popup.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>
