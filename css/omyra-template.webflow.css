@@ -8236,5 +8236,16 @@ footer {
     }
   }
 
+@media (max-width: 1025) {
+  .sidenav.viber.pc {
+    display: none;
+  }
+}
+
+@media (min-width: 1026) {
+  .sidenav.viber.mob {
+    display: none;
+  }
+}
 
 
