@@ -8219,5 +8219,22 @@ footer {
     justify-content: center;
   }
 
+  @media (max-width: 479px) {
+    .sidenav.telegram {
+      right: 20px;
+      bottom: 100px;
+    }
+
+    .sidenav.viber {
+      right: 20px;
+      bottom: 175px;
+    }
+
+    .sidenav.messenger {
+      right: 20px;
+      bottom: 250px;
+    }
+  }
+
 
 
