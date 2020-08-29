@@ -8026,7 +8026,8 @@ footer {
 
 
   .sidenav.telegram {
-    background: #000;
+    display: flex;
+    background: #0087cb;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -8054,21 +8055,28 @@ footer {
     user-select: none;
     width: 56px;
     z-index: 100;
+    transition: 0.3s ease-in-out;
   }
   
   /* Ссылки в меню навигации */
   .sidenav.telegram a {
-    padding: 6px 8px 6px 16px;
+    display: flex;
+    padding: 4px 8px 6px 10px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 30px;
+    color: #fff;
     display: block;
     border-radius: 80px;
+    transition: 0.3s ease-in-out;
   }
   
   /* При наведении курсора мыши на навигационные ссылки измените их цвет */
   .sidenav.telegram a:hover {
-    color: #f1f1f1;
+    color: #0087cb;
+  }
+
+  .sidenav.telegram:hover {
+    background: #fff;
   }
   
   /* На небольших экранах, где высота меньше 450px, измените стиль боковой панели (меньше отступов и меньший размер шрифта) */
@@ -8078,7 +8086,8 @@ footer {
   }
 
   .sidenav.viber {
-    background: #000;
+    display: flex;
+    background: #7d3daf;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -8106,21 +8115,31 @@ footer {
     user-select: none;
     width: 56px;
     z-index: 100;
+    transition: 0.3s ease-in-out;
   }
   
   /* Ссылки в меню навигации */
   .sidenav.viber a {
-    padding: 6px 8px 6px 16px;
+    display: flex;
+    padding: 4px 8px 6px 14px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 30px;
+    color: #fff;
     display: block;
-    border-radius: 80px;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    vertical-align: middle;
+    
   }
   
   /* При наведении курсора мыши на навигационные ссылки измените их цвет */
+  .sidenav.viber:hover {
+    color: #7d3daf;
+    background: #fff;
+  } 
+
   .sidenav.viber a:hover {
-    color: #f1f1f1;
+    color: #7d3daf;
   }
   
   /* На небольших экранах, где высота меньше 450px, измените стиль боковой панели (меньше отступов и меньший размер шрифта) */
@@ -8130,7 +8149,8 @@ footer {
   }
 
   .sidenav.messenger {
-    background: #000;
+    display: flex;
+    background: #025fbc;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -8158,27 +8178,45 @@ footer {
     user-select: none;
     width: 56px;
     z-index: 100;
+    transition: 0.3s ease-in-out;
   }
   
   /* Ссылки в меню навигации */
   .sidenav.messenger a {
-    padding: 6px 8px 6px 16px;
+    display: flex;
+    padding: 4px 8px 6px 14px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 30px;
+    color: #fff;
     display: block;
     border-radius: 80px;
+    transition: 0.3s ease-in-out;
   }
   
   /* При наведении курсора мыши на навигационные ссылки измените их цвет */
   .sidenav.messenger a:hover {
-    color: #f1f1f1;
+    color: #025fbc;
   }
+
+  .sidenav.messenger:hover {
+    background: #fff;
+  }
+  
   
   /* На небольших экранах, где высота меньше 450px, измените стиль боковой панели (меньше отступов и меньший размер шрифта) */
   @media screen and (max-height: 450px) {
     .sidenav.messenger {padding-top: 15px;}
     .sidenav.messenger a {font-size: 18px;}
+  }
+
+  .sidenav.telegram {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sidenav a {
+    display: flex;
+    justify-content: center;
   }
 
 
