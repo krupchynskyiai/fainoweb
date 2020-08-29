@@ -8024,3 +8024,162 @@ footer {
   }   
   }
 
+
+  .sidenav.telegram {
+    background: #000;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    bottom: 75px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    height: 56px;
+    opacity: 1;
+    outline: 0;
+    position: fixed;
+    right: 30px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-transition: bottom .2s,opacity .2s;
+    -o-transition: bottom .2s,opacity .2s;
+    -moz-transition: bottom .2s,opacity .2s;
+    transition: bottom .2s,opacity .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 56px;
+    z-index: 100;
+  }
+  
+  /* Ссылки в меню навигации */
+  .sidenav.telegram a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    border-radius: 80px;
+  }
+  
+  /* При наведении курсора мыши на навигационные ссылки измените их цвет */
+  .sidenav.telegram a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* На небольших экранах, где высота меньше 450px, измените стиль боковой панели (меньше отступов и меньший размер шрифта) */
+  @media screen and (max-height: 450px) {
+    .sidenav.telegram {padding-top: 15px;}
+    .sidenav.telegram a {font-size: 18px;}
+  }
+
+  .sidenav.viber {
+    background: #000;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    bottom: 150px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    height: 56px;
+    opacity: 1;
+    outline: 0;
+    position: fixed;
+    right: 30px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-transition: bottom .2s,opacity .2s;
+    -o-transition: bottom .2s,opacity .2s;
+    -moz-transition: bottom .2s,opacity .2s;
+    transition: bottom .2s,opacity .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 56px;
+    z-index: 100;
+  }
+  
+  /* Ссылки в меню навигации */
+  .sidenav.viber a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    border-radius: 80px;
+  }
+  
+  /* При наведении курсора мыши на навигационные ссылки измените их цвет */
+  .sidenav.viber a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* На небольших экранах, где высота меньше 450px, измените стиль боковой панели (меньше отступов и меньший размер шрифта) */
+  @media screen and (max-height: 450px) {
+    .sidenav.viber {padding-top: 15px;}
+    .sidenav.viber a {font-size: 18px;}
+  }
+
+  .sidenav.messenger {
+    background: #000;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    bottom: 225px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    height: 56px;
+    opacity: 1;
+    outline: 0;
+    position: fixed;
+    right: 30px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-transition: bottom .2s,opacity .2s;
+    -o-transition: bottom .2s,opacity .2s;
+    -moz-transition: bottom .2s,opacity .2s;
+    transition: bottom .2s,opacity .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 56px;
+    z-index: 100;
+  }
+  
+  /* Ссылки в меню навигации */
+  .sidenav.messenger a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    border-radius: 80px;
+  }
+  
+  /* При наведении курсора мыши на навигационные ссылки измените их цвет */
+  .sidenav.messenger a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* На небольших экранах, где высота меньше 450px, измените стиль боковой панели (меньше отступов и меньший размер шрифта) */
+  @media screen and (max-height: 450px) {
+    .sidenav.messenger {padding-top: 15px;}
+    .sidenav.messenger a {font-size: 18px;}
+  }
+
+
+
