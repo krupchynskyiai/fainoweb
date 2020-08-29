@@ -8221,17 +8221,17 @@ footer {
 
   @media (max-width: 479px) {
     .sidenav.telegram {
-      right: 22.5px;
+      right: 25px;
       bottom: 100px;
     }
 
     .sidenav.viber {
-      right: 22.5px;
+      right: 25px;
       bottom: 175px;
     }
 
     .sidenav.messenger {
-      right: 22.5px;
+      right: 25px;
       bottom: 250px;
     }
   }
