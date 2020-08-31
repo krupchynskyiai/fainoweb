@@ -8260,3 +8260,14 @@ footer {
   padding-bottom: 0;
 }
 
+#side-no-padding-bot {
+  margin-bottom: 0;
+}
+
+#no-padding-bot {
+  padding-bottom: 0;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
