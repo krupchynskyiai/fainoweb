@@ -8271,3 +8271,7 @@ footer {
 .flex-wrap {
   flex-wrap: wrap;
 }
+
+.web-dev {
+  width: 80%;
+}
