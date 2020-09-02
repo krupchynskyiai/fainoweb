@@ -7792,7 +7792,7 @@ footer {
   }
 
   .w-richtext {
-    width: 80%
+    width: 90%
   };
 
   .out-history-center {
@@ -8298,3 +8298,23 @@ footer {
     justify-content: center;
   }
   }
+
+  @media (max-width: 479px) {
+    .article-mob {
+      margin-left: 25px;
+      margin-bottom: 25px;
+    }
+    .c-article__related {
+      margin-top: 25px;;
+    }
+  }
+
+.support-art {
+  visibility: hidden;
+}
+
+@media (max-width: 990px) {
+  .support-art {
+    display: none;
+  }
+}
