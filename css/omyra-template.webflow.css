@@ -144,6 +144,7 @@ body {
   color: #333;
   font-size: 16px;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -8317,4 +8318,8 @@ footer {
   .support-art {
     display: none;
   }
+}
+
+html {
+  overflow-x: hidden;
 }
