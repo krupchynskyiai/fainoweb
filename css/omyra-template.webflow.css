@@ -5345,7 +5345,7 @@ figcaption {
     background-size: 3500px;
   }
   .section.is-hero.img-hero.flexh-align-bottom {
-    background-position: 0% 100%;
+    /* background-position: 0% 100%; */
     background-size: 2160px;
   }
   .margin-bottom {
@@ -8322,4 +8322,24 @@ footer {
 
 html {
   overflow-x: hidden;
+}
+
+@media (max-width: 479px) {
+.advantages {
+  -webkit-flex: 100%!important;
+    flex: 100%!important;
+}
+}
+
+@media (max-width: 479px) {
+  .offer-h1 {
+    font-size: 55px;
+  }
+}
+
+@media (min-width: 1215px) {
+  .float-right-mob {
+    float: right!important;
+    margin-right: 200px;
+  }
 }
