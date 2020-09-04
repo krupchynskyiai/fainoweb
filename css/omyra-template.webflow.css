@@ -8343,3 +8343,11 @@ html {
     margin-right: 200px;
   }
 }
+
+.check {
+  list-style-image: url('../images/check.svg');
+}
+
+.not-check {
+  list-style-image: url('../images/not-check.svg');
+}
