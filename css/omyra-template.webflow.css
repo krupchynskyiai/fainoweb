@@ -8357,3 +8357,7 @@ html {
     display: none;
   }
 }
+
+.invisible {
+  visibility: hidden;
+}
