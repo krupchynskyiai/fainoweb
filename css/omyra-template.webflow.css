@@ -8337,10 +8337,10 @@ html {
   }
 }
 
-@media (min-width: 1215px) {
+@media (min-width: 991px) {
   .float-right-mob {
     float: right!important;
-    margin-right: 200px;
+    margin-right: 5%;
   }
 }
 

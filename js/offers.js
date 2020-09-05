@@ -43,7 +43,7 @@
 
 function order_name(value) {
 
-    let orderId = document.querySelector("#orderName");
-    orderId.setAttribute ("name", value)
+    var orderId = document.querySelector("#orderName");
+    orderId.setAttribute ("name", value);
         console.log(value);
 }
