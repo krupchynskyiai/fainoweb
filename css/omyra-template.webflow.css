@@ -8351,3 +8351,9 @@ html {
 .not-check {
   list-style-image: url('../images/not-check.svg');
 }
+
+@media (max-width: 990px) {
+  .mob-logo-no {
+    display: none;
+  }
+}
