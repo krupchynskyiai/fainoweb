@@ -8361,3 +8361,8 @@ html {
 .invisible {
   visibility: hidden;
 }
+@media (max-width: 991px) {
+  .mob-none {
+    display: none;
+  }
+}
