@@ -1,4 +1,33 @@
 
+            
+    function order_name(value) {
+
+        var orderId = document.querySelector("#orderName");
+        orderId.value = value;
+            console.log(value);
+    }
+        
+        $(document).ready(function() {
+
+            //E-mail Ajax Send
+            $("#offer-landing-basic").submit(function() { //Change
+                var th = $(this);
+                $.ajax({
+                    type: "POST",
+                    url: "../php/mail.php", //Change
+                    data: th.serialize()
+                }).done(function() {
+                    alert("Спасибо за заявку! Менеджер свяжется с Вами в ближайшее время!");
+                    setTimeout(function() {
+                        // Done Functions
+                        th.trigger("reset");
+                    }, 1000);
+                });
+                return false;
+            });
+        
+        });
+    
     $('.btn-order').click(function(e) {
         $(".exitblock1").fadeIn("fast");
         $(".exitblock1").show();
@@ -17,34 +46,9 @@
             // $(".exitblock").hide();
         }
     });
-    
-    function order_name(value) {
 
-        var orderId = document.querySelector("#orderName");
-        orderId.setAttribute ("name", value);
-            console.log(value);
-    }
 
-    $(document).ready(function() {
 
-        //E-mail Ajax Send
-        $("#offer-landing-basic").submit(function() { //Change
-            var th = $(this);
-            $.ajax({
-                type: "POST",
-                url: "../php/mail.php", //Change
-                data: th.serialize()
-            }).done(function() {
-                alert("Спасибо за заявку! Менеджер свяжется с Вами в ближайшее время!");
-                setTimeout(function() {
-                    // Done Functions
-                    th.trigger("reset");
-                }, 1000);
-            });
-            return false;
-        });
-    
-    });
 
 
 

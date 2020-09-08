@@ -186,13 +186,12 @@
     
                     <input type="hidden" name="project_name" value="FainoWeb">
                     <input type="hidden" name="admin_email" value="support@fainoweb.com">
-                    <input type="hidden" name="form_subject" value="Заказ Landing Basic">  
+                    <input type="hidden" name="form_subject" id="orderName" value="">  
     
                     <label class="form-label">Имя</label>
                     <input type="text" name="name" class="form-input-text w-input">
                     <label class="form-label">Номер телефона</label>
                     <input type="tel" name="telephone" class="form-input-text w-input">
-                    <input type='hidden' id="orderName" class='form-input-text w-input'>
                     <input type="submit" value="Заказать" class="button-primary is-form-button w-button brief-btn">
                 </form>
             </div>
@@ -379,7 +378,7 @@
             <h3>Срок: 2-5 дней</h3>
             <!-- <h2>от 493$</h2> -->
             <h2>от 26$</h2>
-            <button type="submit" value="Design Web-site Landing" onclick="order_name('Design Web-site Landing')" id="btn-order3" class="button-primary is-form-button w-button brief-btn btn-order">ЗАКАЗАТЬ</button>
+            <button type="submit" value="Illustration" onclick="order_name('Illustration')" id="btn-order3" class="button-primary is-form-button w-button brief-btn btn-order">ЗАКАЗАТЬ</button>
           </div>
 
           <!-- <div class="c-grid-services__item"><img src="images/icon3.svg" width="128" alt="" class="margin-bottom">
