@@ -17,6 +17,13 @@
             // $(".exitblock").hide();
         }
     });
+    
+    function order_name(value) {
+
+        var orderId = document.querySelector("#orderName");
+        orderId.setAttribute ("name", value);
+            console.log(value);
+    }
 
     $(document).ready(function() {
 
@@ -41,9 +48,4 @@
 
 
 
-function order_name(value) {
 
-    var orderId = document.querySelector("#orderName");
-    orderId.setAttribute ("name", value);
-        console.log(value);
-}
