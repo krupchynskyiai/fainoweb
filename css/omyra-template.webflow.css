@@ -8366,3 +8366,16 @@ html {
     display: none;
   }
 }
+
+.sec-404 {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  flex-wrap: wrap;
+
+  margin-top: 150px;
+}
+
+.paragraf {
+  font-size: 25px;
+}
